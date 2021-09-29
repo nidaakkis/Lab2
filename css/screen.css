@@ -1,0 +1,44 @@
+body {
+	background-color: blue;
+	font-family: "Times New Roman", Times, serif;
+}
+
+@media screen and (min-width: 992px) {
+	
+fieldset {
+	border:none;
+}
+
+form {
+	text-align: center;
+	background-color: white;
+	width: 65%;
+}
+
+h1 {
+	text-align: center;
+}
+
+input {
+	width: 50%;
+	height: 45px;
+}
+
+legend {
+	text-align: center;
+}
+
+label {
+	text-align: left;
+	height: 45px;
+	width: 50%;
+}
+
+#submit {
+	text-align: center;
+	background-color: light blue;
+}
+	
+	
+
+	
