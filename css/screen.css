@@ -1,9 +1,9 @@
 body {
-	background-color: light blue;
+	background-color: #d5f4e6;
 	font-family: "Times New Roman", Times, serif;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 992px) {
 	fieldset {
 		border: dark blue;
 		font-size: 1.50em;
@@ -11,41 +11,53 @@ body {
 
 	form {
 		text-align: center;
-		background-color: white;
-		width: 50%;
-		box-shadow: 2px 2px;
+		background-color: #92a8d1;
+		width: 100%;
 	}
-
-	h1 {
+	
+	header {
 		text-align: center;
-		font-size: large;
+		color: white;
+		background-color: #A7C7E7;
+	}
+	
+	header h1 {
+		text-align: center;
+		font-size: 4.5em;
+		margin: 2%;
 	}
 
 	input {
 		width: 50%;
-		height: 45px;
-		margin: auto;
+		height: 15px;
+		margin: .5em;
+		padding: .5em;
 	}
 
 	legend {
+		font-size: 1.5em;
 		text-align: center;
+		margin: 2%;
 	}
 
 	label {
 		text-align: left;
-		height: 45px;
+		height: 30px;
 		width: 50%;
+		margin: .5em;
+		padding: .5em;
 	}
 
 	#submit {
 		text-align: center;
-		background-color: light blue;
-		border: black;
-		width: fit-content;
+		background-color: #89CFF0;
+		margin-top: .5em;
+		margin-bottom: .5em;
+		height: 50px;
 	}
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 480px) {
 	legend {
 		text-align: center;
 		margin: auto;
@@ -58,7 +70,7 @@ body {
 	}
 	
 	input {
-		height: 22.5px;
+		height: 21px;
 		width: 25%;
 	}
 	
